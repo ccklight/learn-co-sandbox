@@ -1,11 +1,39 @@
-Hi! 👋
-
-You've opened the IDE Sandbox. 🎉
-
-The Sandbox is an environment that you can access on "readme" and "code-along" lessons in Learn. It's a great place to experiment with code when you're not working on a "lab" (labs open the IDE In Browser).
-
-The work you do in the Sandbox will be saved from lesson to lesson, and is automatically saved on your behalf to a repository in your GitHub account called `learn-co-sandbox`.
-
-Please DO NOT touch this repository in GitHub, as it will affect your Sandbox experience, and potentially cause your work to be out of sync.
-
-To learn more about the Sandbox, please visit http://help.learn.co/ide-in-browser#sandbox.
+class Waiter
+ 
+  attr_accessor :name, :yrs_experience
+ 
+  @@all = []
+ 
+  def initialize(name, yrs_experience)
+    @name = name
+    @yrs_experience = yrs_experience
+    @@all << self
+  end
+ 
+  def self.all
+    @@all
+  end
+ 
+ 
+  def average_years_experience 
+  
+  end
+  
+  def customer_names(names) 
+  
+  end  
+  
+  def customer_highest-tip(tip)
+   
+   end 
+   
+   def average_tip_seasoned_waiter(tip)
+   
+   end  
+   
+   def average_tip_novice_waiter(tip)
+   
+   end 
+ 
+ 
+end
